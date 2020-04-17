@@ -4,7 +4,7 @@ Inside of the root directori you will need this 2 files.
 It will build an image of a postgres database, Only needed the first time, don't panic.
 `sudo docker build -t virusimage .`
 
-You can check that `virusimage` is there with the following comand:
+You can check that 'virusimage' is there with the following comand:
 `sudo docker images -a`
 
 We will run the image:
