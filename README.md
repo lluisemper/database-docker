@@ -22,5 +22,5 @@ Inside postgres:
 
 ### Commands after checking that it works
 * `sudo docker stop viruscontainer` stops container in case that you want to stop working or fucked up the database
-* `sudo docker container start virus container` what you will do to start your container with the last data inserted
+* `sudo docker container start viruscontainer` what you will do to start your container with the last data inserted
 * `sudo docker run -d --name viruscontainer -p 5555:5432 virusimage` if you want to drop the data and have fresh mock data
