@@ -1,6 +1,6 @@
 ## database-docker
 
-Inside of the root directori:
+Inside of the root directori you will need this 2 files.
 It will build an image of a postgres database, Only needed the first time, don't panic.
 `sudo docker build -t virusimage .`
 
