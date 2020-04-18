@@ -10,6 +10,8 @@ You can check that 'virusimage' is there with the following comand:
 We will run the image:
 `sudo docker run -d --name viruscontainer -p 5555:5432 virusimage`
 
+Start the container: `sudo docker container start viruscontainer`
+
 You can check that you have a container named 'viruscontainer':
 `sudo docker ps`
 
