@@ -8,7 +8,7 @@ You can check that 'virusimage' is there with the following comand:
 `sudo docker images -a`
 
 We will run the image:
-`sudo docker run -d --name viruscontainer -p 5555:5432 virusimage`
+`sudo docker run -d --name viruscontainer -p 5432:5432 virusimage`
 
 Start the container: `sudo docker start viruscontainer`
 
