@@ -16,7 +16,7 @@ You can check that you have a container named 'viruscontainer':
 `sudo docker ps`
 
 Get into the database terminal and check mock data:
-`sudo docker exec -it viruscontainer psql -U postgres testvirusdb`
+`sudo docker exec -it viruscontainer psql -U postgres postgres`
 
 Inside postgres:
 `\dt` show database
