@@ -25,6 +25,11 @@ Inside postgres:
 ### if it complains...
 
 `sudo docker stop viruscontainer`
+
 `sudo docker rm viruscontainer`
+
+You can run it back again, it should work
+
 ATTENTION, if you want to remove all the shit of docker that is not use included volums - `sudo docker system prune -a`
+
 If you only want to delete your shit - `sudo docker system prune`
