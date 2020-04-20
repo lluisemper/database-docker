@@ -1,6 +1,6 @@
 ## database-docker
 
-Inside of the root directori you will need this 2 files.
+Inside of the root directory.
 It will build an image of a postgres database, Only needed the first time, don't panic.
 `sudo docker build --no-cache -t virusimage .`
 
@@ -22,7 +22,9 @@ Inside postgres:
 `\dt` show database
 `select * from link;` to see mockdata
 
-### Commands after checking that it works
-* `sudo docker stop viruscontainer` stops container in case that you want to stop working or fucked up the database
-* `sudo docker start viruscontainer` what you will do to start your container with the last data inserted
-* `sudo docker run -d --name viruscontainer -p 5555:5432 virusimage` if you want to drop the data and have fresh mock data
+### if it complains...
+
+`sudo docker stop viruscontainer`
+`sudo docker rm viruscontainer`
+ATTENTION, if you want to remove all the shit of docker that is not use included volums - `sudo docker system prune -a`
+If you only want to delete your shit - `sudo docker system prune`
